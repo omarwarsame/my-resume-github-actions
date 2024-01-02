@@ -329,21 +329,21 @@ h1 {
   }
   #omar li {
     list-style-type: none;
-    margin: 0 40px;
+    margin: 30px;
   }
 
   #omar li a .fa {
     font-size: 30px;
     color: #262626;
     line-height: 40px;
-    padding-right: 14px;
+    padding-right: 25px;
   }
   #omar li a {
     display:block;
     width: 40px;
     height: 55px;
     background: #c5d5d9;
-    text-align: center;
+    text-align: right;
     padding-left: 19px;
     transform: rotate(318deg) skew(199deg) translate(0, 0);
     transition: 2s;
