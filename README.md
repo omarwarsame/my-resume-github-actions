@@ -22,3 +22,8 @@ On the next page find ‘Define simple record’, Leave it as “A” type.
 Select Alias
  to S3, Select your region, and find your S3 link in the box below. 
 Click ‘Define simple record’ Click ‘create’ button in next page. You are done on Route53.
+
+
+## Clear CloudFront Caching in AWS CLI
+`$ aws cloudfront list-distributions`
+`$ aws cloudfront create-invalidation --distribution-id=E36IMKQ9YOXN4C --paths /`
